@@ -1,0 +1,34 @@
+# Build output
+build/
+bin/
+out/
+target/
+
+# Java artifacts
+*.class
+*.war
+*.ear
+*.log
+
+# Keep project libraries tracked
+!lib/
+!lib/*.jar
+!lib/*.properties
+
+# IDE metadata
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
